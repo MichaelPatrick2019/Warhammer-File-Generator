@@ -24,6 +24,7 @@
 
 from RandomName import RandomName
 from RandomStat import RandomStat
+from RandomRangedWeapon import RandomRangedWeapon
 
 
 # Generates a file, with the default name as
@@ -58,6 +59,12 @@ def make_stat():
     stat_maker = RandomStat()
     return stat_maker.generate_stats()
 
+# Generates a random ranged weapon
+# Returns a string
+def make_ranged_weapon():
+    ranged = RandomRangedWeapon()
+    return ranged.make_weapon()
+
 
 # Opens the given filename (which should be
 # "somename.txt") and writes a series of
@@ -74,6 +81,13 @@ def write_characters(file_name):
         # Write stats
         stats = make_stat()
         file.write(stats + "\n")
+
+        # Psychic abilities (to do)
+        file.write("None" + "\n")
+
+        # Ranged Weapons
+        ranged = make_ranged_weapon()
+        file.write(ranged + "\n")
 
         file.close()
 

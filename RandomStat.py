@@ -9,6 +9,7 @@
 # in the following order...
 # [Movement] [Weapon Skill] [Ballistic Skill] [Strength]
 # [Toughness] [Wounds] [Attacks] [Leadership] [Armor Save]
+# [Invuln Save]
 #
 # OR
 #
@@ -22,7 +23,6 @@ import random
 class RandomStat:
     rand = random
 
-
     # Generates a random movement movement number
     # Returns an integer
     def generate_movement(self):
@@ -30,7 +30,7 @@ class RandomStat:
 
     # Generates a random weapon skill number
     # Returns an integer
-    def generate_weapon_skil(self):
+    def generate_weapon_skill(self):
         return self.rand.randrange(2, 6)
 
     # Generates a random ballistic skill number
@@ -68,18 +68,24 @@ class RandomStat:
     def generate_armor_save(self):
         return self.rand.randrange(2, 6)
 
+    # Generates a random invuln save
+    # Returns an integer
+    def generate_invuln_save(self):
+        return self.rand.randrange(3, 6)
+
     # Generates a randomized list of stats
     # Returns a string
     def generate_stats(self):
         result = ""
         result = (str(self.generate_movement()) + " "
-                  + str(self.generate_weapon_skil()) + " "
+                  + str(self.generate_weapon_skill()) + " "
                   + str(self.generate_ballistic_skill()) + " "
                   + str(self.generate_strength()) + " "
                   + str(self.generate_toughness()) + " "
                   + str(self.generate_wounds()) + " "
                   + str(self.generate_attacks()) + " "
                   + str(self.generate_leadership()) + " "
-                  + str(self.generate_armor_save()))
+                  + str(self.generate_armor_save()) + " "
+                  + str(self.generate_invuln_save()))
 
         return result
