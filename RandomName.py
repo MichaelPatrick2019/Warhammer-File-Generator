@@ -1,26 +1,32 @@
-#Michael Patrick
-#4/4/21
-#RandomName
+# Michael Patrick
+# 4/4/21
+# RandomName
 #
-#Creates a random first and last name
-#with capitalized first letters and
-#lowercase others.
+# Creates a random first and last name
+# with capitalized first letters and
+# lowercase others.
 
 import random
 
-class RandomName:
-    uppercaseAlphabet = ["A", "B", "C", "D", "E", "F",
-                         "G", "H", "I", "J", "K", "L",
-                         "M", "N", "O", "P", "Q", "R",
-                         "S", "T", "U", "V", "W", "X"
-                         "Y", "Z"]
-    lowercaseAlphabet = ["a", "b", "c", "d", "e", "f",
-                         "g", "h", "i", "j", "k", "l",
-                         "m", "n", "o", "p", "q", "r",
-                         "s", "t", "u", "v", "w", "x"
-                         "y", "z"]
 
-    def makeName(self):
+class RandomName:
+    uppercaseAlphabet = [
+        "A", "B", "C", "D", "E", "F",
+        "G", "H", "I", "J", "K", "L",
+        "M", "N", "O", "P", "Q", "R",
+        "S", "T", "U", "V", "W", "X"
+        "Y", "Z"
+    ]
+
+    lowercaseAlphabet = [
+        "a", "b", "c", "d", "e", "f",
+        "g", "h", "i", "j", "k", "l",
+        "m", "n", "o", "p", "q", "r",
+        "s", "t", "u", "v", "w", "x"
+        "y", "z"
+    ]
+
+    def make_name(self):
         result = ""
         rand = random
 
