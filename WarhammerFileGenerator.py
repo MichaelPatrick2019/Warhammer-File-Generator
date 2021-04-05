@@ -23,6 +23,7 @@
 # etc.
 
 from RandomName import RandomName
+from RandomStat import RandomStat
 
 
 # Generates a file, with the default name as
@@ -51,6 +52,13 @@ def write_name():
     return name_generator.make_name()
 
 
+# Generates a randomized stat line
+# Returns a string
+def make_stat():
+    stat_maker = RandomStat()
+    return stat_maker.generate_stats()
+
+
 # Opens the given filename (which should be
 # "somename.txt") and writes a series of
 # characters to it
@@ -58,9 +66,14 @@ def write_name():
 # filename is a string that gives the name of a file
 def write_characters(file_name):
     with open(file_name, "w") as file:
+        # Write name
         first_name = write_name()
         last_name = write_name()
         file.write(first_name + " " + last_name + "\n")
+
+        # Write stats
+        stats = make_stat()
+        file.write(stats + "\n")
 
         file.close()
 
