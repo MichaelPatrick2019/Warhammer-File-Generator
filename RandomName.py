@@ -7,9 +7,10 @@
 # lowercase others.
 
 import random
+from CharacterAspect import CharacterAspect
 
 
-class RandomName:
+class RandomName(CharacterAspect):
     uppercaseAlphabet = [
         "A", "B", "C", "D", "E", "F",
         "G", "H", "I", "J", "K", "L",
@@ -26,7 +27,7 @@ class RandomName:
         "y", "z"
     ]
 
-    def make_name(self):
+    def create(self):
         result = ""
         rand = random
 

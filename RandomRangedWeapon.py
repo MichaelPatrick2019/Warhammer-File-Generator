@@ -4,12 +4,13 @@
 
 from RandomName import RandomName
 import random
+from CharacterAspect import CharacterAspect
 
 
 # Generates a random ranged weapon in the following format:
-# (S = strength, AP = Armor Pierce)
-# [Name] [Range] [Type] [number of attacks] [S] [AP] [Abilities]
-class RandomRangedWeapon:
+# (S = strength, AP = Armor Pierce, D = damage)
+# [Name] [Range] [Type] [number of attacks] [S] [AP] [D] [Abilities]
+class RandomRangedWeapon(CharacterAspect):
     rand = random
 
     ranged_weapon_types = [
@@ -23,7 +24,7 @@ class RandomRangedWeapon:
     # Returns a string
     def generate_weapon_name(self):
         rand_name = RandomName()
-        return rand_name.make_name()
+        return rand_name.create()
 
     # Generates a random weapon range
     # Returns an int
@@ -51,6 +52,11 @@ class RandomRangedWeapon:
     def generate_armor_pierce(self):
         return self.rand.randrange(0, 6)
 
+    # Generate random weapon damage
+    # Returns an int
+    def generate_weapon_damage(self):
+        return self.rand.randrange(1, 6)
+
     # Generate a random ability
     # Returns "None" for now.... (to do)
     # Returns a string
@@ -59,11 +65,12 @@ class RandomRangedWeapon:
 
     # Generates a completely random weapon
     # Returns a string
-    def make_weapon(self):
+    def create(self):
         return (self.generate_weapon_name() + " "
                 + str(self.generate_weapon_range()) + " "
                 + self.generate_weapon_type() + " "
                 + str(self.generate_weapon_attacks()) + " "
                 + str(self.generate_weapon_strength()) + " "
                 + str(self.generate_armor_pierce()) + " "
+                + str(self.generate_weapon_damage()) + " "
                 + self.generate_ability() + " ")

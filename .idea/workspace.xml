@@ -117,22 +117,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1617583170747" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1617664791695">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1617668159737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617664791695" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1617664791694">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1617668159737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617664791694" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1617664791694">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1617668159737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617664791694" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1617664791694">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1617668159737">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617664791694" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
     <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1617584640986">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -149,5 +149,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1617584640985" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/RandomName.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

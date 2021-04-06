@@ -18,9 +18,10 @@
 # Note the spaces in between each number.
 
 import random
+from CharacterAspect import CharacterAspect
 
 
-class RandomStat:
+class RandomStat(CharacterAspect):
     rand = random
 
     # Generates a random movement movement number
@@ -75,7 +76,7 @@ class RandomStat:
 
     # Generates a randomized list of stats
     # Returns a string
-    def generate_stats(self):
+    def create(self):
         result = ""
         result = (str(self.generate_movement()) + " "
                   + str(self.generate_weapon_skill()) + " "

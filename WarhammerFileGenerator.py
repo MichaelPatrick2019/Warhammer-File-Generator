@@ -25,6 +25,7 @@
 from RandomName import RandomName
 from RandomStat import RandomStat
 from RandomRangedWeapon import RandomRangedWeapon
+from RandomMeleeWeapon import RandomMeleeWeapon
 
 
 # Generates a file, with the default name as
@@ -50,20 +51,28 @@ def generate_file(new_file_name="test"):
 # Returns a string that is a random name
 def write_name():
     name_generator = RandomName()
-    return name_generator.make_name()
+    return name_generator.create()
 
 
 # Generates a randomized stat line
 # Returns a string
 def make_stat():
     stat_maker = RandomStat()
-    return stat_maker.generate_stats()
+    return stat_maker.create()
+
 
 # Generates a random ranged weapon
 # Returns a string
 def make_ranged_weapon():
     ranged = RandomRangedWeapon()
-    return ranged.make_weapon()
+    return ranged.create()
+
+
+# Generates a random melee weapon
+# Returns a string
+def make_melee_weapon():
+    melee = RandomMeleeWeapon()
+    return melee.create()
 
 
 # Opens the given filename (which should be
@@ -88,6 +97,10 @@ def write_characters(file_name):
         # Ranged Weapons
         ranged = make_ranged_weapon()
         file.write(ranged + "\n")
+
+        # Melee Weapons
+        melee = make_melee_weapon()
+        file.write(melee)  # don't have extra \n at end of file
 
         file.close()
 
