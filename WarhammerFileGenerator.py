@@ -80,31 +80,38 @@ def make_melee_weapon():
 # characters to it
 #
 # filename is a string that gives the name of a file
-def write_characters(file_name):
+def write_characters(file_name, numChar):
     with open(file_name, "w") as file:
-        # Write name
-        first_name = write_name()
-        last_name = write_name()
-        file.write(first_name + " " + last_name + "\n")
+        for x in range(int(numChar)):
+            # Write name
+            first_name = write_name()
+            last_name = write_name()
+            file.write(first_name + " " + last_name + "\n")
 
-        # Write stats
-        stats = make_stat()
-        file.write(stats + "\n")
+            # Write stats
+            stats = make_stat()
+            file.write(stats + "\n")
 
-        # Psychic abilities (to do)
-        file.write("None" + "\n")
+            # Psychic abilities (to do)
+            file.write("None" + "\n")
 
-        # Ranged Weapons
-        ranged = make_ranged_weapon()
-        file.write(ranged + "\n")
+            # Ranged Weapons
+            ranged = make_ranged_weapon()
+            file.write("Ranged " + ranged + "\n")
 
-        # Melee Weapons
-        melee = make_melee_weapon()
-        file.write(melee)  # don't have extra \n at end of file
+            # Melee Weapons
+            melee = make_melee_weapon()
+            file.write("Melee " + melee)  # don't have extra \n at end of file
+
+            if x != int(numChar) - 1:
+                file.write("\n" * 2) #Space in between each character, except last line
 
         file.close()
 
 
 if __name__ == '__main__':
-    filename = generate_file()
-    write_characters(filename)
+    name = input("Please enter a file name: ")
+    numChar = input("Please enter the number of characters you would like: ")
+
+    filename = generate_file(name)
+    write_characters(filename, numChar)
