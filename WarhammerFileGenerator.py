@@ -49,9 +49,9 @@ def generate_file(new_file_name="test"):
 # it as a string
 #
 # Returns a string that is a random name
-def write_name():
+def write_name(last_name=False):
     name_generator = RandomName()
-    return name_generator.create()
+    return name_generator.create(last_name)
 
 
 # Generates a randomized stat line
@@ -84,9 +84,9 @@ def write_characters(file_name, numChar):
     with open(file_name, "w") as file:
         for x in range(int(numChar)):
             # Write name
-            first_name = write_name()
-            last_name = write_name()
-            file.write(first_name + " " + last_name + "\n")
+            have_last = True;
+            first_last_name = write_name(have_last)
+            file.write(first_last_name + "\n")
 
             # Write stats
             stats = make_stat()

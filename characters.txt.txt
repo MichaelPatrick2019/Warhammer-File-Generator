@@ -1,0 +1,59 @@
+Adison Lloyd
+18 2 2 5 8 7 2 16 2 5
+None
+Ranged Cadie 24 Grenade 12 6 5 3 None 
+Melee Lyndon 2 1 1 None
+
+Sawyer Thomas
+4 3 3 6 8 13 5 16 2 3
+None
+Ranged Aston 6 Rapid-Fire 2 9 3 2 None 
+Melee Audrey 6 1 5 None
+
+James Edwards
+19 4 5 8 5 12 6 12 4 4
+None
+Ranged Olivia 22 Pistol 19 7 4 5 None 
+Melee Lana 9 3 2 None
+
+Lana West
+11 2 5 2 9 17 4 15 5 4
+None
+Ranged Melanie 26 Heavy 15 2 4 1 None 
+Melee Brad User 0 3 None
+
+Adelaide Myers
+15 3 2 8 2 13 4 12 4 5
+None
+Ranged Robert 33 Heavy 11 9 2 5 None 
+Melee Rosie 2 0 1 None
+
+Carl Mitchell
+7 4 4 3 5 10 4 17 3 3
+None
+Ranged John 25 Rapid-Fire 2 8 4 3 None 
+Melee Jasmine 5 3 1 None
+
+Oscar Stevens
+10 5 2 3 2 4 2 14 3 5
+None
+Ranged Preston 32 Assault 15 2 4 2 None 
+Melee James 5 5 1 None
+
+Valeria Roberts
+11 5 3 2 7 11 4 13 3 3
+None
+Ranged Albert 18 Pistol 2 9 3 4 None 
+Melee Paige 2 2 4 None
+
+Alexia Farrell
+8 3 3 2 4 15 3 16 2 4
+None
+Ranged Aiden 17 Rapid-Fire 14 8 5 3 None 
+Melee Nicole 3 4 4 None
+
+Briony Wright
+5 5 3 7 2 2 2 15 5 5
+None
+Ranged Eddy 20 Heavy 17 2 1 4 None 
+Melee Gianna User 4 5 None

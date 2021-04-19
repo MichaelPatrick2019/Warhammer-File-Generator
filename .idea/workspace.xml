@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a65a5b91-1b4d-4e4e-8394-2b564abbd7f0" name="Default Changelist" comment="" />
+    <list default="true" id="a65a5b91-1b4d-4e4e-8394-2b564abbd7f0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomName.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomName.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomRangedWeapon.py" beforeDir="false" afterPath="$PROJECT_DIR$/RandomRangedWeapon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WarhammerFileGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/WarhammerFileGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/army.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,9 +42,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Michael\PycharmProjects\Warhammer-File-Generator\Warhammer-File-Generator\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RandomName.py" />
@@ -77,9 +84,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Michael\PycharmProjects\Warhammer-File-Generator\Warhammer-File-Generator\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WarhammerFileGenerator.py" />
@@ -94,11 +101,12 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.WarhammerFileGenerator" />
-        <item itemvalue="Python.RandomStat" />
         <item itemvalue="Python.RandomName" />
+        <item itemvalue="Python.RandomStat" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -112,53 +120,7 @@
     </task>
     <servers />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617583170747">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1617583170747" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1617668159737">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1617668159737">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1617668159737">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1617668159737">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1617668159737" />
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom" timestamp="1617584640986">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1617584640986" />
-    <state width="1259" height="204" key="GridCell.Tab.1.center" timestamp="1617584640985">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1617584640985" />
-    <state width="1259" height="204" key="GridCell.Tab.1.left" timestamp="1617584640984">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1617584640984" />
-    <state width="1259" height="204" key="GridCell.Tab.1.right" timestamp="1617584640985">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1259" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1617584640985" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/RandomName.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
